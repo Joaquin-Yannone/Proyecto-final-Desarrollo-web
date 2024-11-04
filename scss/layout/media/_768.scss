@@ -1,0 +1,181 @@
+@media (max-width:768px){
+    /*Comienzo Primera Pagina/inicio*/
+        .contenedor-navbar{
+            display: none;
+        }
+    
+        .logo a{
+            font-size: 2.8125rem;
+        }
+    
+        .Icon-txt-header img{
+            margin-right: 1.25rem;
+        }
+    
+        .carrusel img{
+            height: 12.5rem;
+        }
+    
+        .fondo-principal{
+            padding: .625rem .3125rem .625rem .3125rem;
+        }
+    
+        .txt-destacados h2{
+            font-size: 1.5rem;
+        }
+    
+        .img-productos-destacados img{
+            width: 9.0625rem;
+            height: 8.5rem;
+        }
+    
+        .conjunto-txt-4{
+            display: none;
+        }
+    
+        .txt-principal p{
+            font-size: .8125rem;
+        }
+    
+        .txt-principal h3{
+            margin-top: .1875rem;
+            font-size: .875rem;
+        }
+    
+        .btn-agregar button{
+            font-size: .9375rem;
+            border: none;
+            padding: .125rem 2.0625rem;
+            border-radius: .625rem;
+            margin-top: .0625rem;
+        }
+    
+        .btn-agregar{
+            text-align: center;
+        }
+    
+        .contenedor-seccion-p-g-g{
+            padding: .9375rem;
+            gap: .625rem;
+        }
+    
+        .titulo-p-g-g a{
+            font-size: .8125rem;
+        }
+    
+        .imagen-principal-p-g-g img{
+            width: 9.375rem;
+            height: 5.625rem;
+        }
+    
+        .imagen-secundaria-flex{
+            display: flex;
+            justify-content: center;
+        }
+    
+        .imagen-secundaria-p-g-g-1 img{
+            width: 3.75rem;
+        }
+    
+        .imagen-secundaria-p-g-g-2 img{
+            width: 3.75rem;
+        }
+    
+        .imagen-secundaria-p-g-g-3 img{
+            display: none;
+        }
+    /*Fin Primera Pagina/inicio*/
+    /*Comienzo Segunda Pagina*/
+        .filtros-padre{
+            display: none;
+        }
+    
+        .titulo-perifericos-2 ::first-letter{
+            color: #FCD05C;
+            font-size: 35px;
+        }
+        
+        .titulo-perifericos-1 ::first-letter{
+            color: #FCD05C;
+            font-size: 35px;
+        }
+    /*Fin Segunda Pagina*/
+    
+    /*Comienzo Tercera, cuarta y quinta Pagina*/
+        .conjunto-productos-perifericos-3{
+            display: none;
+        }
+    
+        .contenedor-perifericos{
+            padding-left: 6.25rem;
+            width: 35rem;
+            height: 23.75rem;
+        }
+    
+        .contenedor-gabinetes{
+            padding-left: 6.25rem;
+            width: 35rem;
+            height: 23.75rem;
+        }
+    
+        .contenedor-graficas{
+            padding-left: 6.25rem;
+            width: 35rem;
+            height: 23.75rem;
+        }
+    
+        .contenedor-perifericos-11{
+            display: flex;
+            justify-content: center;
+        }
+    
+        .contenedor-productos-perifericos-1{
+            max-width: 9.375rem;
+        }
+    
+        .contenedor-productos-perifericos-2{
+            max-width: 9.375rem;
+        }
+    
+        .contenedor-productos-perifericos-3{
+            max-width: 9.375rem;
+        }
+    
+        .contenedor-productos-perifericos-4{
+            max-width: 9.375rem;
+        }
+    
+        .contenedor-productos-perifericos-5{
+            max-width: 9.375rem;
+        }
+    
+        .contenedor-productos-perifericos-6{
+            max-width: 9.375rem;
+        }
+    
+        .titulo-perifericos-1 h2{
+            font-size: 1.5rem;
+        }
+    
+        .titulo-perifericos-2 h2{
+            font-size: 1.5rem;
+        }
+    
+        .imagen-principal-perifericos img{
+            width: 9.375rem;
+        }
+    
+        .txt-productos-perifericos p{
+            font-size: .8125rem;
+        }
+    
+        .btn-productos-p-g-g button{
+            padding: .3125rem 1.875rem;
+        }
+    
+        .contenedor-perifericos-venta{
+            display: flex;
+            justify-content: center;
+        }
+    /*Fin Tercera, cuarta y quinta Pagina*/
+    }

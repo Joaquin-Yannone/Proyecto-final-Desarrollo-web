@@ -1,0 +1,46 @@
+@media (max-width:425px){
+    /*Comienzo primera Pagina/inicio*/
+        .carrusel img{
+            height: 9.375rem;
+        }
+    
+        .conjunto-txt-1{
+            max-width: 9.0625rem;
+            max-height: 15.875rem;
+        }
+    
+        .conjunto-txt-2{
+            max-width: 9.0625rem;
+            max-height: 15.875rem;
+        }
+    
+        .conjunto-txt-3{
+            display: none;
+        }
+    
+        .conjunto-txt-4{
+            display: none;
+        }
+    
+        .footer{
+            height: 11.875rem;
+        }
+    
+        .logo-footer a{
+            font-size: 1.875rem;
+        }
+    
+        .icon-footer-conjunto img{
+            padding-top: 1.25rem;
+        }
+    
+        .icon-footer img{
+            width: 1.875rem;
+        }
+    
+        .Icon-txt-header img{
+            margin-left: .3125rem;
+            margin-right: 10px;
+        }
+    /*Fin primera Pagina/inicio*/
+    }

@@ -1,0 +1,45 @@
+@media (max-width:1300px){
+    /*Comienzo primera Pagina/inicio*/
+        /*Comienzo Header*/
+        .Boton-buscar input{
+            width: 21.875rem;
+        }
+        /*Fin Header*/
+    
+        /*Comienzo Productos Destacados*/
+        .conjunto-txt-5{
+            display: none;
+        }
+    
+        .btn-agregar{
+            text-align: center;
+        }
+        /*Fin Productos Destacados*/
+    
+        /*Comienzo Perifericos, Gabinetes y Graficas*/
+        .titulo-p-g-g a{
+            font-size: .9375rem;
+        }
+    
+        .imagen-principal-p-g-g img{
+            width: 14.375rem;
+            height: 9.375rem;
+        }
+    
+        .imagen-secundaria-p-g-g img{
+            width: 4.0625rem;
+            height: 4.0625rem;
+        }
+        .imagen-secundaria-p-g-g-1 img{
+            width: 3.9375rem;
+        }
+        
+        .imagen-secundaria-p-g-g-2 img{
+            width: 3.9375rem;
+        }
+        
+        .imagen-secundaria-p-g-g-3 img{
+            width: 3.75rem;
+        }
+    /*Fin primera Pagina/inicio*/
+    }

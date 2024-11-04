@@ -1,0 +1,139 @@
+.contenedor-productos{
+    display: grid;
+    gap: .625rem;
+    grid-template-columns: 3,1fr;
+    grid-template-rows: 3,1fr;
+}
+
+.conjunto-productos-1{
+    grid-column: 1 / 1;
+    border-radius: .625rem;
+    max-width: 19.4375rem;
+    max-height: 33.875rem;
+    background-color:#181A1B;
+}
+
+.conjunto-productos-2{
+    grid-column: 2 / 2;
+    border-radius: .625rem;
+    max-width: 19.4375rem;
+    max-height: 33.875rem;
+    background-color:#181A1B;
+}
+
+.conjunto-productos-3{
+    grid-column: 3 / 3;
+    border-radius: .625rem;
+    max-width: 19.4375rem;
+    max-height: 33.875rem;
+    background-color:#181A1B;
+}
+
+.conjunto-productos-4{
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+    border-radius: .625rem;
+    max-width: 19.4375rem;
+    max-height: 33.875rem;
+    background-color:#181A1B;
+}
+
+.conjunto-productos-5{
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+    border-radius: .625rem;
+    max-width: 19.4375rem;
+    max-height: 33.875rem;
+    background-color:#181A1B;
+}
+
+.conjunto-productos-6{
+    grid-column: 3 / 3;
+    grid-row: 2 / 2;
+    border-radius: .625rem;
+    max-width: 19.4375rem;
+    max-height: 33.875rem;
+    background-color:#181A1B;
+}
+
+.conjunto-productos-7{
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+    border-radius: .625rem;
+    max-width: 19.4375rem;
+    max-height: 33.875rem;
+    background-color:#181A1B;
+}
+
+.conjunto-productos-8{
+    grid-column: 2 / 2;
+    grid-row: 3 / 3;
+    border-radius: .625rem;
+    max-width: 19.4375rem;
+    max-height: 33.875rem;
+    background-color:#181A1B;
+}
+
+.conjunto-productos-9{
+    grid-column: 3 / 3;
+    grid-row: 3 / 3;
+    border-radius: .625rem;
+    max-width: 19.4375rem;
+    max-height: 33.875rem;
+    background-color:#181A1B;
+}
+
+.grids-orden-productos{
+    display: grid;
+    grid-template-columns: 1,1fr;
+    grid-template-rows: 70px 30px 50px;
+}
+
+.btn-agregar-ofertas button{
+    font-size: 1rem;
+    margin-bottom: .9375rem;
+    margin-top: .3125rem;
+    background-color: #D9D9D9;
+    border: none;
+    padding: .3125rem 6.875rem;
+    border-radius: .625rem;
+}
+
+.btn-agregar-ofertas{
+    text-align: center;
+}
+
+.btn-agregar-ofertas :hover{
+    color: #181A1B;
+    background-color: #FCD05C;
+}
+
+.txt-productos h3{
+    margin-left: .625rem;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.txt-productos p{
+    margin-left: .3125rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.boton-VerMas{
+    display: flex;
+    justify-content: center;
+}
+
+.boton-VerMas button{
+    background-color: #D9D9D9;
+    font-size: 1rem;
+    border-radius: .625rem;
+    border: none;
+    padding: .3125rem .625rem .3125rem .625rem;
+}
+
+.boton-VerMas :hover{
+    color: #181A1B;
+    background-color: #FCD05C;
+}

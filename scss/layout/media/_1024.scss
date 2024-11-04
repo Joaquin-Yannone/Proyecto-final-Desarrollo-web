@@ -1,0 +1,78 @@
+@media (max-width:1024px){
+    /*Comienzo Primera Pagina/inicio*/
+        .Boton-buscar input{
+            width: 18.75rem;
+        }
+        .fondo-principal{
+            padding: .9375rem .625rem .9375rem .625rem;
+        }
+    
+        .txt-destacados h2{
+            font-size: 1.5rem;
+        }
+    
+        .img-productos-destacados img{
+            width: 9.0625rem;
+            height: 8.5rem;
+        }
+    
+        .conjunto-txt-1{
+            max-width: 9.0625rem;
+            max-height: 15.875rem;
+        }
+    
+        .conjunto-txt-2{
+            max-width: 9.0625rem;
+            max-height: 15.875rem;
+        }
+    
+        .conjunto-txt-3{
+            max-width: 9.0625rem;
+            max-height: 15.875rem;
+        }
+    
+        .conjunto-txt-4{
+            max-width: 9.0625rem;
+            max-height: 15.875rem;
+        }
+    
+        .conjunto-txt-5{
+            display: none;
+        }
+    
+        .txt-principal p{
+            font-size: .8125rem;
+        }
+    
+        .txt-principal h3{
+            margin-top: .1875rem;
+            font-size: .875rem;
+        }
+    
+        .btn-agregar button{
+            font-size: .9375rem;
+            border: none;
+            padding: .125rem 2.0625rem;
+            border-radius: .625rem;
+            margin-top: .0625rem;
+        }
+    
+        .btn-agregar{
+            text-align: center;
+        }
+    
+        .titulo-p-g-g a{
+            font-size: .9375rem;
+        }
+    
+        .imagen-principal-p-g-g img{
+            width: 14.375rem;
+            height: 9.375rem;
+        }
+    
+        .imagen-secundaria-p-g-g img{
+            width: 4.0625rem;
+            height: 4.0625rem;
+        }
+    /*Fin Primera Pagina/inicio*/
+    }

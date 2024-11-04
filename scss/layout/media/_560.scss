@@ -1,0 +1,39 @@
+@media (max-width:560px){
+    /*Comienzo primera Pagina/inicio*/
+        .carrusel img{
+            height: 9.375rem;
+        }
+    
+        .menu-hambuerguesa img{
+            width: 1.5625rem;
+        }
+    
+        .icon-footer{
+            margin: 0 .3125rem;
+        }
+    
+        .conjunto-txt-3{
+            display: none;
+        }
+    
+        .contenedor-seccion-p-g-g{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    
+        .titulo-p-g-g a{
+            font-size: .75rem;
+        }
+        
+        .imagen-principal-p-g-g img{
+            width: 12.4375rem;
+            height: 8.125rem;
+        }
+        
+        .imagen-secundaria-p-g-g img{
+            width: 3.625rem;
+            height: 3.3125rem;
+        }
+    /*Fin primera Pagina/inicio*/
+    }

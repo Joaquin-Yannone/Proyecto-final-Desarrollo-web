@@ -1,0 +1,89 @@
+@media (max-width:580px){
+    /*Comienzo Tercera, cuarta y quinta Pagina*/
+        .logo a{
+            font-size: 2.125rem;
+        }
+    
+        .contenedor-perifericos{
+            background-image: url(../assets/IMG/PERIFERICOS/FONDO\ PERIFERICO\ sin\ texto.png);
+            width: 25rem;
+            height: 21.875rem;
+        }
+    
+        .contenedor-gabinetes{
+            background-image: url(../assets/IMG/PERIFERICOS/FONDO\ PERIFERICO\ sin\ texto.png);
+            width: 25rem;
+            height: 21.875rem;
+        }
+    
+        .contenedor-graficas{
+            background-image: url(../assets/IMG/PERIFERICOS/FONDO\ PERIFERICO\ sin\ texto.png);
+            width: 25rem;
+            height: 21.875rem;
+        }
+    
+        .contenedor-productos{
+            display: flex;
+            justify-content: center;
+        }
+    
+        .contenedor-flex{
+            display: flex;
+            justify-content: center;
+        }
+    
+        .contenedor-productos-perifericos-3{
+            display: none;
+        }
+    
+        .contenedor-productos-perifericos-6{
+            display: none;
+        }
+    
+        .conjunto-productos-perifericos-1{
+            width: 10.625rem;
+        }
+    
+        .conjunto-productos-perifericos-2{
+            width: 10.625rem;
+        }
+    
+        .imagen-periferico-mas-vendidos img{
+            width: 10.625rem;
+            height: 150px;
+        }
+    
+        .btn-agregar-mas-vendidos button{
+            font-size: .9375rem;
+            padding: .3125rem 25px;
+        }
+    
+        .txt-perifericos p{
+            font-size: .8125rem;
+        }
+    
+        .txt-perifericos h3{
+            font-size: .9375rem;
+        }
+    
+        .titulo-perifericos-2 ::first-letter{
+            color: #FCD05C;
+            font-size: 27px;
+        }
+        
+        .titulo-perifericos-1 ::first-letter{
+            color: #FCD05C;
+            font-size: 27px;
+        }
+    
+        .titulo-perifericos-2 h2{
+            text-align: center;
+            font-size: 1.125rem;
+        }
+    
+        .titulo-perifericos-1 h2{
+            margin-left: .25rem;
+            font-size: 1.125rem;
+        }
+    /*Fin Tercera, cuarta y quinta Pagina*/
+    }
