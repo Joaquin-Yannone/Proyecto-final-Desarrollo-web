@@ -3,18 +3,16 @@
 }
 
 .logo-login-carrito{
-    background-color: #1F2123;
+    background-color: map-get($color , fondo);
     height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    @include flex(row,wrap,space-between,center);
 }
 
 .logo a{
     text-decoration: none;
     font-size: 4rem;
     font-weight: bold;
-    color: #FCD05C;
+    color: map-get($color , amarillo);
     margin: 24px;
 }
 
@@ -36,10 +34,8 @@
 }
 
 .contenedor-navbar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #2d2e34 ;
+    @include flex(row,wrap,space-around,center);
+    background-color: map-get($color , secundario);
     height: 3.75rem;
 }
 
@@ -50,16 +46,16 @@
 
 .navbar ul li a{
     text-decoration: none;
-    background-color: #1F2123;
+    background-color: map-get($color, fondo);
     border-radius: 1.25rem;
-    color: #D9D9D9;
+    color: map-get($color, letra);
     font-size: 1rem;
     width: 500;
     padding: .3125rem .625rem .3125rem .625rem;
 }
 
 .navbar :hover{
-    color: #FCD05C;
+    color: map-get($color , amarillo);
 }
 
 .Boton-buscar{

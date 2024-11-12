@@ -1,30 +1,29 @@
 .rrr{
-    display: flex;
-    justify-content: center;
+    @include flex(row,wrap,center,none);
 }
 
 .contenedor-seccion-p-g-g{
     display: flex;
-    background-color: #2D2E34;
+    background-color: map-get($color, secundario);
     padding: 2.1875rem;
     gap: 1.875rem;
     border-radius: 1.25rem;
 }
 
 .grupo-secciones-1{
-    background-color: #1F2123;
+    background-color: map-get($color, fondo);
     padding: .625rem 0rem .625rem 0rem;
     border-radius: 1.25rem;
 }
 
 .grupo-secciones-2{
-    background-color: #1F2123;
+    background-color: map-get($color, fondo);
     padding: .625rem 0rem .625rem 0rem;
     border-radius: 1.25rem;
 }
 
 .grupo-secciones-3{
-    background-color: #1F2123;
+    background-color: map-get($color, fondo);
     padding: .625rem 0rem .625rem 0rem;
     border-radius: 1.25rem;
 }
@@ -44,8 +43,7 @@
 }
 
 .imagen-secundaria-flex{
-    display: flex;
+    @include flex(row,wrap,center,none);
     gap: .625rem;
     margin-top: .3125rem;
-    justify-content: center;
 }

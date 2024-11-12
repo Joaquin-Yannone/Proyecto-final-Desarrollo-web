@@ -21,8 +21,10 @@ body {
   background-color: #1F2123;
   height: 80px;
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo a {
@@ -52,6 +54,8 @@ body {
 
 .contenedor-navbar {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   background-color: #2d2e34;
@@ -112,12 +116,18 @@ body {
 
 .logo-footer {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: none;
 }
 
 .contenedor-icon {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
+  align-items: none;
   margin: 1.25rem 1.25rem;
 }
 
@@ -150,21 +160,27 @@ body {
 }
 
 .contenedor-principal {
-  justify-content: center;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: none;
   margin-top: 3.4375rem;
 }
 
 .conjuntos-productos {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: none;
 }
 
 .fondo-principal {
-  background-color: #2D2E34;
   padding: 1.875rem 1.875rem 0.3125rem 1.875rem;
   border-radius: 1.25rem;
   margin-bottom: 3.125rem;
+  background-color: #2d2e34;
 }
 
 .txt-principal p {
@@ -243,7 +259,10 @@ body {
 .flechas-grupo {
   margin-top: 10px;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: none;
 }
 
 .flecha-izquierda img {
@@ -257,12 +276,15 @@ body {
 
 .rrr {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: none;
 }
 
 .contenedor-seccion-p-g-g {
   display: flex;
-  background-color: #2D2E34;
+  background-color: #2d2e34;
   padding: 2.1875rem;
   gap: 1.875rem;
   border-radius: 1.25rem;
@@ -302,15 +324,21 @@ body {
 
 .imagen-secundaria-flex {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: none;
   gap: 0.625rem;
   margin-top: 0.3125rem;
-  justify-content: center;
 }
 
 /* Empieza division filtro con productos*/
 .filtro-productos {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: none;
   margin-top: 7.5rem;
 }
 
@@ -333,10 +361,12 @@ body {
 .cuerpo-ofertas {
   width: 100%;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   background-color: #D9D9D9;
   height: 9.375rem;
-  align-items: center;
 }
 
 .txt-ofertas {
@@ -350,8 +380,11 @@ body {
 
 .Icon-padre {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: center;
   color: black;
-  text-align: center;
   padding-left: 18.75rem;
 }
 
@@ -480,7 +513,11 @@ body {
 }
 
 .btn-agregar-ofertas {
-  text-align: center;
+  display: flex;
+  flex-direction: none;
+  flex-wrap: none;
+  justify-content: none;
+  align-items: center;
 }
 
 .btn-agregar-ofertas :hover {
@@ -502,7 +539,10 @@ body {
 
 .boton-VerMas {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: none;
 }
 
 .boton-VerMas button {
@@ -550,7 +590,10 @@ body {
 
 .grupo-productos {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: end;
+  align-items: none;
   margin-right: 1.875rem;
   margin-top: 1.875rem;
 }
@@ -1438,7 +1481,9 @@ body {
   .contenedor-seccion-p-g-g {
     display: flex;
     flex-direction: column;
+    flex-wrap: none;
     justify-content: center;
+    align-items: none;
   }
   .titulo-p-g-g a {
     font-size: 0.75rem;

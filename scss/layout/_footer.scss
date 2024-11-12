@@ -1,6 +1,6 @@
 .footer {
     margin-top: 2.5rem;
-    background-color: #181A1B;
+    background-color: $footer;
     height: 15.625rem;
 }
 
@@ -8,18 +8,16 @@
     text-decoration: none;
     font-size: 4.375rem;
     font-weight: bold;
-    color: #FCD05C;
+    color: $amarillo;
     padding-top: 4.375rem;
 }
 
 .logo-footer {
-    display: flex;
-    justify-content: center;
+    @include flex(row,wrap,center,none);
 }
 
 .contenedor-icon{
-    display: flex;
-    justify-content: space-between;
+    @include flex(row,wrap,space-between,none);
     margin: 1.25rem 1.25rem;
 }
 

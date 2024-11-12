@@ -29,8 +29,7 @@
 }
 
 .grupo-productos{
-    display: flex;
-    justify-content: end;
+    @include flex(row,wrap,end,none);
     margin-right: 1.875rem;
     margin-top: 1.875rem;
 }
@@ -59,19 +58,19 @@
     font-size: 1rem;
     margin-bottom: .625rem;
     margin-top: .3125rem;
-    background-color: #D9D9D9;
+    background-color: map-get($color , letra);
     border: none;
     padding: .3125rem 3.75rem;
     border-radius: .625rem;
 }
 
 .btn-agregar-mas-vendidos :hover{
-    color: #181A1B;
-    background-color: #FCD05C;
+    color: map-get($color , productos);
+    background-color: map-get($color , amarillo);
 }
 
 .conjunto-productos-perifericos-1{
-    background-color: #181A1B;
+    background-color: map-get($color , productos);
     width: 13.1981rem;
     border-radius: .625rem;
     margin-left: 10px;
@@ -79,7 +78,7 @@
 }
 
 .conjunto-productos-perifericos-2{
-    background-color: #181A1B;
+    background-color: map-get($color , productos);
     width: 13.1981rem;
     border-radius: .625rem;
     margin-left: 10px;
@@ -87,7 +86,7 @@
 }
 
 .conjunto-productos-perifericos-3{
-    background-color: #181A1B;
+    background-color: map-get($color , productos);
     width: 13.1981rem;
     border-radius: .625rem;
     margin-left: 10px;

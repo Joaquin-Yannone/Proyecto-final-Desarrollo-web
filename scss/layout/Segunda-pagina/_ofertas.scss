@@ -1,14 +1,12 @@
 .cuerpo-ofertas{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: #D9D9D9;
+    @include flex(row,wrap,center,center);
+    background-color: map-get($color , letra);
     height: 9.375rem;
-    align-items: center;
 }
 
 .txt-ofertas {
-    color: black;
+    color: map-get($color , negro);
     margin-left: .625rem;
 }
 
@@ -17,9 +15,8 @@
 }
 
 .Icon-padre {
-    display: flex;
-    color: black;
-    text-align: center;
+    @include flex(row,wrap,none,center);
+    color: map-get($color , negro);
     padding-left: 18.75rem;
 }
 .icon-txt{
@@ -33,11 +30,11 @@
 
 .txt a{
     font-size: 1.25rem;
-    color: #181A1B;
+    color: map-get($color, productos);
 }
 
 .txt :hover{
-    color: #FCD05C;
+    color: map-get($color , amarillo);
 }
 
 .icon{

@@ -17,9 +17,7 @@
         }
     
         .contenedor-seccion-p-g-g{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            @include flex(column,none,center,none);
         }
     
         .titulo-p-g-g a{
