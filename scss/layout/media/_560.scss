@@ -17,7 +17,7 @@
         }
     
         .contenedor-seccion-p-g-g{
-            @include flex(column,none,center,none);
+            @include flex(column,none,center,none)
         }
     
         .titulo-p-g-g a{

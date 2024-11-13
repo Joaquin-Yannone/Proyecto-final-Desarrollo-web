@@ -36,6 +36,18 @@
     display: flex;
 }
 
+.imagen-periferico-mas-vendidos :hover{
+    border-radius: 5px;
+    transform: scale(1.01);
+    transition: all 500ms ;
+}
+
+.imagen-principal-perifericos :hover{
+    border-radius: 5px;
+    transform: scale(1.01);
+    transition: all 500ms ;
+}
+
 .contenedor-productos-perifericos-1{
     margin: 0 .625rem;
     background-color: map-get($color , productos);
@@ -117,4 +129,5 @@
 .btn-productos-p-g-g :hover{
     background-color: map-get($color , amarillo);
     color: map-get($color , productos);
+    transition: all 700ms ;
 }

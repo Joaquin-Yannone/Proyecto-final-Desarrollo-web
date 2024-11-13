@@ -15,9 +15,10 @@
 }
 
 .Icon-padre {
-    @include flex(row,wrap,none,center);
+    @include flex(none,none,center,center);
     color: map-get($color , negro);
     padding-left: 18.75rem;
+    text-align: center;
 }
 .icon-txt{
     font-size: 20px;
@@ -31,10 +32,6 @@
 .txt a{
     font-size: 1.25rem;
     color: map-get($color, productos);
-}
-
-.txt :hover{
-    color: map-get($color , amarillo);
 }
 
 .icon{

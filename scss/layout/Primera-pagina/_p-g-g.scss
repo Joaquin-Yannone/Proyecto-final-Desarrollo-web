@@ -33,6 +33,11 @@
     padding-left: .625rem;
 }
 
+.titulo-p-g-g :hover{
+    color: map-get($color , amarillo);
+    transition: all 700ms;
+}
+
 .titulo-p-g-g a{
     text-decoration: none;
     background-color: #2D2E34;
@@ -46,4 +51,9 @@
     @include flex(row,wrap,center,none);
     gap: .625rem;
     margin-top: .3125rem;
+}
+
+.imagen-secundaria-flex :hover{
+    transform: scale(1.02);
+    transition: all 400ms;
 }

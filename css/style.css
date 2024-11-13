@@ -35,6 +35,10 @@ body {
   margin: 24px;
 }
 
+.logo :hover {
+  cursor: pointer;
+}
+
 .Icon-txt-header {
   display: flex;
   align-items: center;
@@ -77,8 +81,11 @@ body {
   padding: 0.3125rem 0.625rem 0.3125rem 0.625rem;
 }
 
-.navbar :hover {
+.navbar ul :hover {
+  cursor: pointer;
   color: #FCD05C;
+  transform: scale(1.04);
+  transition: all 600ms;
 }
 
 .Boton-buscar {
@@ -183,6 +190,12 @@ body {
   background-color: #2d2e34;
 }
 
+.img-productos-destacados :hover {
+  border-radius: 5px;
+  transform: scale(1.01);
+  transition: all 500ms;
+}
+
 .txt-principal p {
   font-size: 1rem;
 }
@@ -210,6 +223,7 @@ body {
 .btn-agregar button:hover {
   color: #181A1B;
   background-color: #FCD05C;
+  transition: all 700ms;
 }
 
 .btn-agregar {
@@ -313,6 +327,11 @@ body {
   padding-left: 0.625rem;
 }
 
+.titulo-p-g-g :hover {
+  color: #FCD05C;
+  transition: all 700ms;
+}
+
 .titulo-p-g-g a {
   text-decoration: none;
   background-color: #2D2E34;
@@ -330,6 +349,11 @@ body {
   align-items: none;
   gap: 0.625rem;
   margin-top: 0.3125rem;
+}
+
+.imagen-secundaria-flex :hover {
+  transform: scale(1.02);
+  transition: all 400ms;
 }
 
 /* Empieza division filtro con productos*/
@@ -380,12 +404,13 @@ body {
 
 .Icon-padre {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: none;
+  flex-direction: none;
+  flex-wrap: none;
+  justify-content: center;
   align-items: center;
   color: black;
   padding-left: 18.75rem;
+  text-align: center;
 }
 
 .icon-txt {
@@ -400,10 +425,6 @@ body {
 .txt a {
   font-size: 1.25rem;
   color: #181A1B;
-}
-
-.txt :hover {
-  color: #FCD05C;
 }
 
 .icon {
@@ -516,13 +537,20 @@ body {
   display: flex;
   flex-direction: none;
   flex-wrap: none;
-  justify-content: none;
+  justify-content: center;
   align-items: center;
 }
 
 .btn-agregar-ofertas :hover {
   color: #181A1B;
   background-color: #FCD05C;
+  transition: all 700ms;
+}
+
+.imagen-producto :hover {
+  border-radius: 5px;
+  transform: scale(1.01);
+  transition: all 500ms;
 }
 
 .txt-productos h3 {
@@ -556,6 +584,7 @@ body {
 .boton-VerMas :hover {
   color: #181A1B;
   background-color: #FCD05C;
+  transition: all 700ms;
 }
 
 .titulo-perifericos-1 {
@@ -631,6 +660,7 @@ body {
 .btn-agregar-mas-vendidos :hover {
   color: #181A1B;
   background-color: #FCD05C;
+  transition: all 700ms;
 }
 
 .conjunto-productos-perifericos-1 {
@@ -693,6 +723,18 @@ body {
 
 .grupo-productos-perifericos {
   display: flex;
+}
+
+.imagen-periferico-mas-vendidos :hover {
+  border-radius: 5px;
+  transform: scale(1.01);
+  transition: all 500ms;
+}
+
+.imagen-principal-perifericos :hover {
+  border-radius: 5px;
+  transform: scale(1.01);
+  transition: all 500ms;
 }
 
 .contenedor-productos-perifericos-1 {
@@ -776,6 +818,7 @@ body {
 .btn-productos-p-g-g :hover {
   background-color: #FCD05C;
   color: #181A1B;
+  transition: all 700ms;
 }
 
 @media (max-width: 1350px) {

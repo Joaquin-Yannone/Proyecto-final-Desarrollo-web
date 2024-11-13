@@ -26,6 +26,12 @@
     background-color: map-get($color , secundario);
 }
 
+.img-productos-destacados :hover{
+    border-radius: 5px;
+    transform: scale(1.01);
+    transition: all 500ms ;
+}
+
 .txt-principal p{
     font-size: 1rem;
 }
@@ -53,6 +59,7 @@
 .btn-agregar button:hover{
     color: #181A1B;
     background-color: $amarillo;
+    transition: all 700ms ;
 }
 
 .btn-agregar{

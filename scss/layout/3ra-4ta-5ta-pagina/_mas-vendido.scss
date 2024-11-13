@@ -67,6 +67,7 @@
 .btn-agregar-mas-vendidos :hover{
     color: map-get($color , productos);
     background-color: map-get($color , amarillo);
+    transition: all 700ms ;
 }
 
 .conjunto-productos-perifericos-1{

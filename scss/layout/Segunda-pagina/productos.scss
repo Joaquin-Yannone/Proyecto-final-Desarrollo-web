@@ -100,12 +100,19 @@
 }
 
 .btn-agregar-ofertas{
-    @include flex(none,none,none,center);
+    @include flex(none,none,center,center);
 }
 
 .btn-agregar-ofertas :hover{
     color: map-get($color , productos);
     background-color: map-get($color , amarillo);
+    transition: all 700ms ;
+}
+
+.imagen-producto :hover{
+    border-radius: 5px;
+    transform: scale(1.01);
+    transition: all 500ms;
 }
 
 .txt-productos h3{
@@ -135,4 +142,5 @@
 .boton-VerMas :hover{
     color: map-get($color , productos);
     background-color: map-get($color , amarillo);
+    transition: all 700ms ;
 }
