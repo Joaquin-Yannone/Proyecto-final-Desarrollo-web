@@ -230,46 +230,6 @@ body {
   text-align: center;
 }
 
-.conjunto-txt-1 {
-  border-radius: 0.625rem;
-  background-color: #1F2123;
-  max-width: 13.9375rem;
-  max-height: 24.375rem;
-  margin: 0 0.625rem;
-}
-
-.conjunto-txt-2 {
-  border-radius: 0.625rem;
-  background-color: #1F2123;
-  max-width: 13.9375rem;
-  max-height: 24.375rem;
-  margin: 0 0.625rem;
-}
-
-.conjunto-txt-3 {
-  border-radius: 0.625rem;
-  background-color: #1F2123;
-  max-width: 13.9375rem;
-  max-height: 24.375rem;
-  margin: 0 0.625rem;
-}
-
-.conjunto-txt-4 {
-  border-radius: 0.625rem;
-  background-color: #1F2123;
-  max-width: 13.9375rem;
-  max-height: 24.375rem;
-  margin: 0 0.625rem;
-}
-
-.conjunto-txt-5 {
-  border-radius: 0.625rem;
-  background-color: #1F2123;
-  max-width: 13.9375rem;
-  max-height: 24.375rem;
-  margin: 0 0.625rem;
-}
-
 .flechas-grupo {
   margin-top: 10px;
   display: flex;
@@ -957,8 +917,11 @@ body {
   }
   /*Fin Header*/
   /*Comienzo Productos Destacados*/
-  .conjunto-txt-5 {
+  .destacados-5 {
     display: none;
+  }
+  .fondo-principal {
+    padding: 0.9375rem 0.625rem 0.9375rem 0.625rem;
   }
   .btn-agregar {
     text-align: center;
@@ -1093,24 +1056,21 @@ body {
     width: 9.0625rem;
     height: 8.5rem;
   }
-  .conjunto-txt-1 {
-    max-width: 9.0625rem;
+  .destacados-1 {
+    width: 9.0625rem;
     max-height: 15.875rem;
   }
-  .conjunto-txt-2 {
-    max-width: 9.0625rem;
+  .destacados-2 {
+    width: 9.0625rem;
     max-height: 15.875rem;
   }
-  .conjunto-txt-3 {
-    max-width: 9.0625rem;
+  .destacados-3 {
+    width: 9.0625rem;
     max-height: 15.875rem;
   }
-  .conjunto-txt-4 {
-    max-width: 9.0625rem;
+  .destacados-4 {
+    width: 9.0625rem;
     max-height: 15.875rem;
-  }
-  .conjunto-txt-5 {
-    display: none;
   }
   .txt-principal p {
     font-size: 0.8125rem;
@@ -1287,7 +1247,7 @@ body {
     width: 9.0625rem;
     height: 8.5rem;
   }
-  .conjunto-txt-4 {
+  .destacados-4 {
     display: none;
   }
   .txt-principal p {
@@ -1489,14 +1449,6 @@ body {
   .txt-perifericos h3 {
     font-size: 0.9375rem;
   }
-  .titulo-perifericos-2 ::first-letter {
-    color: #FCD05C;
-    font-size: 27px;
-  }
-  .titulo-perifericos-1 ::first-letter {
-    color: #FCD05C;
-    font-size: 27px;
-  }
   .titulo-perifericos-2 h2 {
     text-align: center;
     font-size: 1.125rem;
@@ -1504,6 +1456,9 @@ body {
   .titulo-perifericos-1 h2 {
     margin-left: 0.25rem;
     font-size: 1.125rem;
+  }
+  .grupo-productos {
+    display: flex;
   }
   /*Fin Tercera, cuarta y quinta Pagina*/
 }
@@ -1518,8 +1473,11 @@ body {
   .icon-footer {
     margin: 0 0.3125rem;
   }
-  .conjunto-txt-3 {
+  .destacados-3 {
     display: none;
+  }
+  .txt-destacados h2 {
+    font-size: 1.25rem;
   }
   .contenedor-seccion-p-g-g {
     display: flex;
@@ -1600,18 +1558,18 @@ body {
   .carrusel img {
     height: 9.375rem;
   }
-  .conjunto-txt-1 {
+  .destacados-1 {
     max-width: 9.0625rem;
     max-height: 15.875rem;
   }
-  .conjunto-txt-2 {
+  .destacados-2 {
     max-width: 9.0625rem;
     max-height: 15.875rem;
   }
-  .conjunto-txt-3 {
+  .destacados-3 {
     display: none;
   }
-  .conjunto-txt-4 {
+  .destacados-4 {
     display: none;
   }
   .footer {
@@ -1762,6 +1720,13 @@ body {
     transform: scale(1);
     opacity: 1;
   }
+}
+.conjunto-txt {
+  border-radius: 0.625rem;
+  background-color: #1F2123;
+  max-width: 13.9375rem;
+  max-height: 24.375rem;
+  margin: 0 0.625rem;
 }
 
 /*# sourceMappingURL=style.css.map */

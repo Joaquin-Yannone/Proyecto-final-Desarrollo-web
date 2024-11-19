@@ -66,46 +66,6 @@
     text-align: center;
 }
 
-.conjunto-txt-1{
-    border-radius: .625rem;
-    background-color: $fondo;
-    max-width: 13.9375rem;
-    max-height: 24.375rem;
-    margin: 0 .625rem;
-}
-
-.conjunto-txt-2{
-    border-radius: .625rem;
-    background-color: $fondo;
-    max-width: 13.9375rem;
-    max-height: 24.375rem;
-    margin: 0 .625rem;
-}
-
-.conjunto-txt-3{
-    border-radius: .625rem;
-    background-color: $fondo;
-    max-width: 13.9375rem;
-    max-height: 24.375rem;
-    margin: 0 .625rem;
-}
-
-.conjunto-txt-4{
-    border-radius: .625rem;
-    background-color: $fondo;
-    max-width: 13.9375rem;
-    max-height: 24.375rem;
-    margin: 0 .625rem;
-}
-
-.conjunto-txt-5{
-    border-radius: .625rem;
-    background-color: $fondo;
-    max-width: 13.9375rem;
-    max-height: 24.375rem;
-    margin: 0 .625rem;
-}
-
 .flechas-grupo{
     margin-top: 10px;
     @include flex(row,wrap,center,none);

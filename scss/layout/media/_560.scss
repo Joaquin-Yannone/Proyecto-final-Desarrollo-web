@@ -12,10 +12,14 @@
             margin: 0 .3125rem;
         }
     
-        .conjunto-txt-3{
+        .destacados-3{
             display: none;
         }
-    
+
+        .txt-destacados h2{
+            font-size: 1.25rem;
+        }
+        
         .contenedor-seccion-p-g-g{
             @include flex(column,none,center,none)
         }
