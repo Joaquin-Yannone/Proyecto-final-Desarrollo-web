@@ -4,6 +4,11 @@
         font-size: 2.125rem;
     }
 
+    .grupo-productos{
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
     .contenedor-perifericos{
         background-image: url(../assets/IMG/PERIFERICOS/FONDO\ PERIFERICO\ sin\ texto.png);
         width: 25rem;
@@ -74,10 +79,6 @@
     .titulo-perifericos-1 h2{
         margin-left: .25rem;
         font-size: 1.125rem;
-    }
-
-    .grupo-productos{
-        display: flex;
     }
     /*Fin Tercera, cuarta y quinta Pagina*/
     }
